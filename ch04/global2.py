@@ -6,6 +6,7 @@ def f1(a):
     x = a
     x = 7
     print('x =', x)
+
 x=2
 f1(x)
 print('x=',x)
