@@ -2,7 +2,7 @@
 
 i = 1
 sum = 0
-while i < 1000:
+while True:
     sum += i
     if i> 500: break
     i += 1
