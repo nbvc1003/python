@@ -19,3 +19,10 @@ def isEunYear(year):
 print(isEunYear(2000))
 print(isEunYear(2100))
 
+
+
+
+
+
+
+
