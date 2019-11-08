@@ -5,14 +5,12 @@
 
 num = int(input("숫자 :"))
 
-
-
 if num >= 2 and num <= 9 :
     cnt = 2
     while cnt <= 9:
         print('{} * {} = {}'.format(num, cnt, num*cnt))
         cnt += 1
-    else :
+    else : # python에만 있는 기능
         print("구구단끝")
 
 else :
