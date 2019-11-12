@@ -49,7 +49,7 @@ window = Tk()
 
 window.title("내 스케치")
 canvas = Canvas(bg=canvas_color, height = canvas_height,
-                width =canvas_width, highlightthickness = 0)
+                width = canvas_width, highlightthickness = 0)
 canvas.pack()
 
 window.bind("<Up>", p1_mode_N) # UP키를 누르면 p1_move_N매소드 실행
