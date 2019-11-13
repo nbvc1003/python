@@ -12,9 +12,9 @@ d1 = dict(zip(eng,kor))
 for i in d1:
     temp = input('{} ? '.format(i))
     if temp == d1[i] :
-        print('정답', d1[i])
+        print('정답 입니다. ', d1[i])
     else:
-        print('오답')
+        print('오답입니다. 답은 {} 입니다. '.format(d1[i]))
         
 
 
