@@ -7,7 +7,7 @@ def click(key):
     #버튼 이밴트 처리
     if key == '=':
         try:
-            # eval : 문자열로 된 수식을 받아서 계산을 해서 결과를 리턴한다. .
+            # eval 함수 : 문자열로 된 수식을 받아서 계산을 해서 결과를 리턴한다. .
             result = str(eval(display.get()))
             # 파이썬은 숫자와 문자의 + 연산을 못한다.
             display.insert(END, '='+ result)
