@@ -30,5 +30,5 @@ for i in titles:
 for i in links:
     print(i)
 
-#powerbbsBody > table > tbody > tr > td > div > table > tbody > tr > td > table > tbody > tr:nth-child(3) > td > form > table > tbody > tr:nth-child(8)
+
 

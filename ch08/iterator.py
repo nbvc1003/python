@@ -6,7 +6,11 @@ for n in [1,2,3]:
 
 for c in "hell":
     print(c)
-    
 
-iterator = range(3)
+iterator = range(3).__iter__()
+
+print(iterator.__next__())
+print(iterator.__next__())
+print(iterator.__next__())
+
 
