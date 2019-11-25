@@ -1,0 +1,4 @@
+horse: 말
+car: 자동차
+phone: 전화기
+
