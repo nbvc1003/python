@@ -12,7 +12,7 @@ try:
     csr = con.cursor()
     csr.execute("insert into emp values (%d, '%s', '%s', 7369,"
                 "current_date(), %d, 0,10)"%(empno, ename, job, sal))
-    con.commit()
+    con.commit() # 입력 수정 삭제시 메모리 내용을 실제 db에 반영시킬때 사용
     print('입력성공')
 except:
     print("에러:", sys.exc_info())
