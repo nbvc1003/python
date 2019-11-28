@@ -16,6 +16,6 @@ rd1 = np.random.randn(1000)
 plt.hist(rd1)
 plt.show()
 
-rd2 = np.random.randint(1,100,1000) # 1~100 ,10개
+rd2 = np.random.randint(1,100,size=1000) # 1~100 ,
 plt.hist(rd2, bins=100)
 plt.show()
