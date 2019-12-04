@@ -1,1 +1,0 @@
-{"type":"lorem","amount":1,"number":"32","number_max":"32","format":"p","time":"08:38:51","text_out":"<p>Lorem ipsum taciti hac amet sagittis ac velit ad felis consectetur maecenas lobortis orci, lacinia pellentesque elit ac cubilia elementum sodales velit bibendum neque pulvinar sagittis elementum congue dictum orci sit elementum.<\/p>\r"}
