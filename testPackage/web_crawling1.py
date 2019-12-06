@@ -25,12 +25,24 @@ soup = BeautifulSoup(res, 'html.parser')
 bbsListDic = {}
 bbsNo = 0
 bbs = soup.select_one("div#powerbbsBody")
+listItems = bbs.select("tr.ls")
+print(len(listItems))
+for item in listItems:
+    itemNo = str(item.select_one(".bbsNo").string).strip()
+    itemSub = str(item.select_one(".bbsSubject > a.sj_ln").string).strip()
+    if itemNo.isdigit():
+        # print(itemNo, itemSub)
+        bbsListDic[itemNo] = itemSub
 
-num = bbs.select(".bbsNo")
-for i in num:
-    num2 = str(i.string)
-    if num2.isdigit():
-        print(num2)
+print(len(bbsListDic),bbsListDic)
+
+
+
+# num = bbs.select(".bbsNo")
+# for i in num:
+#     num2 = str(i.string)
+#     if num2.isdigit():
+#         print(num2)
 
 
 
