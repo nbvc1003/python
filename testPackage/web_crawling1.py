@@ -1,22 +1,37 @@
 from bs4 import BeautifulSoup # XML, HTML
-import urllib.request
+import urllib.request as req
 
 url = "http://www.inven.co.kr/board/destinyguardians/5051"
-res = urllib.request.urlopen(url)
-data = res.read()
-# byte 데이터 -> text
-html = data.decode("utf-8")
-# print(text)
-soup = BeautifulSoup(html, 'html.parser')
+res = req.urlopen(url)
+soup = BeautifulSoup(res, 'html.parser')
 
-##powerbbsBody > table > tbody > tr > td > div > table > tbody > tr > td > table > tbody > tr:nth-child(3) > td > form > table > tbody
+# ###
+#listDic = {}
+# # 게시물 단위로 검색
+# bbslist = soup.select("div#powerbbsBody")
+#
+# for item in bbslist:
+#     # 각 게시물 단위로 요소 분리해서 검색
+#
+#     date = item.select_one("td.date").string
+#     subject = item.select_one("td.bbsSubject > a.sj_ln").string
+#
+#     if date != None and subject != None:
+#         listDic[str(date).strip] = str(subject).strip()
+#
+# print(listDic)
+# ###
 
-# tables = soup.find_all('div')
-# tables = soup.find("tr") #특정 테그만 읽어 올때
-table1 = soup.select("tr.ls > td.bbsSubject > a.sj_ln")
-table2 = soup.select("tr.ls tr tr2")
-print(table1)
-print(len(table1))
-# print(len(tables))
-# for t in tables:
-#     print(t.attrs['name'])
+bbsListDic = {}
+bbsNo = 0
+bbs = soup.select_one("div#powerbbsBody")
+
+num = bbs.select(".bbsNo")
+for i in num:
+    num2 = str(i.string)
+    if num2.isdigit():
+        print(num2)
+
+
+
+
