@@ -22,28 +22,43 @@ soup = BeautifulSoup(res, 'html.parser')
 # print(listDic)
 # ###
 
-bbsListDic = {}
+keyword = input('검색 키워드 :')
+
+bbsList = []
 bbsNo = 0
 bbs = soup.select_one("div#powerbbsBody")
 listItems = bbs.select("tr.ls")
 print(len(listItems))
 for item in listItems:
     itemNo = str(item.select_one(".bbsNo").string).strip()
+    itemDate = str(item.select_one(".date").string).strip()
     itemSub = str(item.select_one(".bbsSubject > a.sj_ln").string).strip()
-    if itemNo.isdigit():
+    # 게이판리스트의 No값이 숫자인 게시물만 dic으로
+    bbsListDic = {}
+    if itemNo.isdigit() and itemDate.find(':'):
         # print(itemNo, itemSub)
-        bbsListDic[itemNo] = itemSub
+        bbsListDic['id'] = int(itemNo)
+        bbsListDic['date'] = itemDate
+        bbsListDic['subject'] = itemSub
+        bbsList.append(bbsListDic)
 
-print(len(bbsListDic),bbsListDic)
-
-
-
-# num = bbs.select(".bbsNo")
-# for i in num:
-#     num2 = str(i.string)
-#     if num2.isdigit():
-#         print(num2)
+        if bbsNo < int(itemNo):
+            bbsNo = int(itemNo)
 
 
+print("가장최근 게시물 번호 : {}".format(bbsNo))
+# print(len(bbsList),bbsList)
 
+for item in bbsList:
+    result = []
+    if item['subject'].find(keyword) > 0:
+        result.append(item)
+    if len(result) > 5 :
+        break;
+
+
+# todo
+# 기존 bbsNo 보다 큰 게시물들 의 title 내용 키워드 검색
+# 가장 높은 no 값을 저장
+#
 
