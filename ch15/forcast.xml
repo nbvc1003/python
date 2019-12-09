@@ -2,7 +2,7 @@
 <rss version="2.0">
 <channel>
 <title>기상청 육상 중기예보</title>
-<link>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</link>
+<link>http://www.kma.go.kr/weather/forecast/mid-term_03.jsp</link>
 <description>기상청 날씨 웹서비스</description>
 <language>ko</language>
 <generator>기상청</generator>
@@ -10,21 +10,21 @@
  <item>
 <author>기상청</author>
 <category>육상중기예보</category>
-<title>전국 육상 중기예보 - 2019년 12월 09일 (월)요일 06:00 발표</title>
-<link>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</link>
-<guid>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</guid>
+<title>강원도 육상 중기예보 - 2019년 12월 09일 (월)요일 06:00 발표</title>
+<link>http://www.kma.go.kr/weather/forecast/mid-term_03.jsp</link>
+<guid>http://www.kma.go.kr/weather/forecast/mid-term_03.jsp</guid>
 <description>
 	<header>
-		<title>전국 육상중기예보</title>
+		<title>강원도 육상중기예보</title>
 		<tm>201912090600</tm>
-		<wf><![CDATA[기압골의 영향으로 14일은 중부지방에 비 또는 눈이, 16~17일은 전국에 비가 오겠고, 그 밖의 날은 고기압의 가장자리에 들어 가끔 구름이 많겠습니다.<br />기온은 평년(최저기온: -9~2℃, 최고기온: 3~11℃)보다 조금 높겠습니다.<br />강수량은 평년(0~1mm)보다 많겠습니다.]]></wf>
+		<wf><![CDATA[기압골의 영향으로 14일은 강원도 비 또는 눈이, 16~17일은 강원도에 비가 오겠고, 그 밖의 날은 고기압의 가장자리에 들어 가끔 구름많겠습니다.<br />기온은 평년(최저기온: 영서 -9~-5℃, 영동 -2~0℃, 최고기온: 영서 3~5℃, 영동 6~8℃)보다 조금 높겠습니다.<br />강수량은 평년(영서 0~1mm, 영동 1mm)보다 많겠습니다.<br />동해중부해상의 물결은 12일에 1.0~4.0m로 매우 높게 일겠고, 그 밖의 날은 1.0~3.0m로 일겠습니다.]]></wf>
 	</header>
 	<body>
 				
 
 		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>서울</city>
+				<province>강원도영서</province>
+				<city>원주</city>
 				
 				<data>
 					<mode>A02</mode>
@@ -51,158 +51,9 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
-					<tmx>2</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>인천</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -212,8 +63,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
+					<tmn>-4</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -222,9 +73,9 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>5</tmx>
+					<wf>구름많고 눈</wf>
+					<tmn>0</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -234,8 +85,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>5</tmx>
+					<tmn>0</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -245,8 +96,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -256,8 +107,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -267,8 +118,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -278,8 +129,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -290,7 +141,7 @@
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>3</tmn>
-					<tmx>6</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -301,156 +152,7 @@
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>2</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>수원</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>3</tmx>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -470,14 +172,14 @@
 		</location>
 
 		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>파주</city>
+				<province>강원도영서</province>
+				<city>철원</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-7</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -488,7 +190,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-7</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -500,7 +202,7 @@
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-7</tmn>
-					<tmx>7</tmx>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -511,7 +213,7 @@
 					<tmEf>2019-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-7</tmn>
-					<tmx>7</tmx>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -520,7 +222,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
+					<wf>구름많고 눈</wf>
 					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
@@ -543,8 +245,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>5</tmx>
+					<tmn>-6</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -554,8 +256,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-5</tmn>
-					<tmx>5</tmx>
+					<tmn>-6</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -565,8 +267,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -576,8 +278,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -587,7 +289,7 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
+					<tmn>2</tmn>
 					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -598,7 +300,7 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-5</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -609,8 +311,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-7</tmn>
-					<tmx>2</tmx>
+					<tmn>-8</tmn>
+					<tmx>1</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -619,14 +321,14 @@
 		</location>
 
 		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>이천</city>
+				<province>강원도영서</province>
+				<city>화천</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -637,8 +339,157 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>인제</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -669,9 +520,9 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
+					<wf>구름많고 눈</wf>
 					<tmn>-1</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -682,7 +533,7 @@
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -693,7 +544,7 @@
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
-					<tmx>6</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -704,7 +555,7 @@
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-4</tmn>
-					<tmx>6</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -714,8 +565,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -725,8 +576,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -736,7 +587,7 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
+					<tmn>2</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -747,8 +598,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>2</tmx>
+					<tmn>-2</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -758,7 +609,7 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-7</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -768,15 +619,15 @@
 		</location>
 
 		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>평택</city>
+				<province>강원도영서</province>
+				<city>양구</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -786,8 +637,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -797,8 +648,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -808,8 +659,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>7</tmx>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -818,8 +669,8 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
+					<wf>구름많고 눈</wf>
+					<tmn>-2</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -830,7 +681,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
+					<tmn>-2</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -841,8 +692,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>8</tmx>
+					<tmn>-5</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -852,8 +703,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>8</tmx>
+					<tmn>-5</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -863,7 +714,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -874,7 +725,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -885,8 +736,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>8</tmx>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -896,8 +747,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>3</tmx>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -907,16 +758,14 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>3</tmx>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
 
 
 		</location>
-
-
 
 		<location wl_ver="3">
 				<province>강원도영서</province>
@@ -1069,7 +918,305 @@
 
 		<location wl_ver="3">
 				<province>강원도영서</province>
-				<city>원주</city>
+				<city>홍천</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>횡성</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>4</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>영월</city>
 				
 				<data>
 					<mode>A02</mode>
@@ -1097,7 +1244,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -1108,8 +1255,157 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>정선</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1141,7 +1437,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
+					<tmn>-4</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -1152,7 +1448,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-3</tmn>
+					<tmn>-4</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -1163,7 +1459,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -1174,7 +1470,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -1186,7 +1482,7 @@
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -1197,6 +1493,155 @@
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>평창</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -1207,8 +1652,157 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-7</tmn>
 					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영서</province>
+				<city>대관령</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 눈</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>1</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-8</tmn>
+					<tmx>-1</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1367,766 +1961,17 @@
 
 		</location>
 
-
-
 		<location wl_ver="3">
-				<province>대전ㆍ세종ㆍ충청남도</province>
-				<city>대전</city>
+				<province>강원도영동</province>
+				<city>태백</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대전ㆍ세종ㆍ충청남도</province>
-				<city>세종</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-5</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대전ㆍ세종ㆍ충청남도</province>
-				<city>홍성</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-4</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-
-
-		<location wl_ver="3">
-				<province>충청북도</province>
-				<city>청주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>충청북도</province>
-				<city>충주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-5</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>충청북도</province>
-				<city>영동</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
 
@@ -2135,8 +1980,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2146,8 +1991,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>8</tmx>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2157,8 +2002,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-6</tmn>
-					<tmx>8</tmx>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2168,8 +2013,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
 					<wf>구름많고 비/눈</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -2179,8 +2024,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2190,7 +2035,156 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>3</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
 					<tmn>-2</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영동</province>
+				<city>속초</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 비/눈</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -2201,7 +2195,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
+					<tmn>2</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -2212,8 +2206,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>12</tmx>
+					<tmn>2</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2222,17 +2216,6 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>2</tmn>
 					<tmx>11</tmx>
@@ -2243,9 +2226,20 @@
 				
 				<data>
 					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>5</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<tmn>2</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -2256,8 +2250,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>5</tmx>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2265,18 +2259,16 @@
 
 		</location>
 
-
-
 		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>광주</city>
+				<province>강원도영동</province>
+				<city>고성</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2286,8 +2278,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2298,155 +2290,6 @@
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>목포</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -2456,769 +2299,22 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>여수</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>순천</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>광양</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>광주ㆍ전라남도</province>
-				<city>나주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>전주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
+					<wf>구름많고 비/눈</wf>
+					<tmn>2</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>60</rnSt>
 				</data>
 
 				
@@ -3226,7 +2322,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>3</tmn>
+					<tmn>2</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -3259,455 +2355,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>군산</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
 					<tmn>2</tmn>
 					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>정읍</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>남원</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3718,1052 +2367,7 @@
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>고창</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
 					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>전라북도</province>
-				<city>무주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>부산</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>울산</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>창원</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>진주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>거창</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-4</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -4783,338 +2387,38 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-4</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>부산ㆍ울산ㆍ경상남도</province>
-				<city>통영</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-
-
-		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>대구</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>안동</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-3</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영동</province>
+				<city>양양</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
 
@@ -5123,445 +2427,147 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-13 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 비/눈</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-15 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>3</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-17 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>5</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-18 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2019-12-19 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>6</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 
 		</location>
 
 		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>포항</city>
+				<province>강원도영동</province>
+				<city>동해</city>
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>경주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
 					<tmn>1</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>울진</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
 
@@ -5570,7 +2576,7 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
+					<tmn>1</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -5582,7 +2588,7 @@
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5591,19 +2597,8 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
+					<tmn>0</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -5612,9 +2607,20 @@
 				
 				<data>
 					<mode>A02</mode>
+					<tmEf>2019-12-14 00:00</tmEf>
+					<wf>구름많고 비/눈</wf>
+					<tmn>5</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>2</tmn>
+					<tmn>5</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -5625,8 +2631,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5636,8 +2642,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -5647,8 +2653,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>11</tmx>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -5658,8 +2664,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>11</tmx>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -5669,8 +2675,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmn>6</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -5679,38 +2685,38 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
+					<wf>맑음</wf>
+					<tmn>3</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>강원도영동</province>
+				<city>삼척</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2019-12-12 00:00</tmEf>
+					<wf>맑음</wf>
 					<tmn>1</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>대구ㆍ경상북도</province>
-				<city>울릉도</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
 
@@ -5719,8 +2725,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-12 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>5</tmx>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5730,8 +2736,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-13 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5740,22 +2746,22 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름많고 비/눈</wf>
 					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>60</rnSt>
 				</data>
 
 				
@@ -5764,7 +2770,7 @@
 					<tmEf>2019-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5774,8 +2780,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5784,171 +2790,20 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>4</tmn>
-					<tmx>7</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2019-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-
-
-		<location wl_ver="3">
-				<province>제주도</province>
-				<city>제주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -5958,8 +2813,8 @@
 					<mode>A02</mode>
 					<tmEf>2019-12-16 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -5969,8 +2824,8 @@
 					<mode>A01</mode>
 					<tmEf>2019-12-17 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>12</tmx>
+					<tmn>7</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -5979,171 +2834,22 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>10</tmx>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
 					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>제주도</province>
-				<city>서귀포</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-12 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-13 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-14 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-15 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 00:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2019-12-16 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-17 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2019-12-19 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 

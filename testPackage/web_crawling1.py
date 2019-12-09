@@ -48,13 +48,17 @@ for item in listItems:
 
 print("가장최근 게시물 번호 : {}".format(bbsNo))
 # print(len(bbsList),bbsList)
-
+findList = []
 for item in bbsList:
-    result = []
+
     if item['subject'].find(keyword) > 0:
-        result.append(item)
-    if len(result) > 5 :
+        findList.append(item)
+    if len(findList) > 5 :
         break;
+
+if len(findList) > 0:
+    print(findList)
+
 
 
 # todo
