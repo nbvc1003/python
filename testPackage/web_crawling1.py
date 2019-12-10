@@ -53,11 +53,11 @@ for item in bbsList:
         break;
 
 if len(findList) > 0:
-    print(findList)
+    # print(findList)
     for msg in findList:
+        # 게시판 링크만 전달
+        print(msg['a_href'])
         telegram_bot_sendtext(msg['a_href'])
-
-
 else:
     print("검색결과가 없습니다.")
 
