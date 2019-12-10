@@ -67,6 +67,7 @@ def KeywordSearch(keyword):
 
 
 while True:
+    bbsList.clear()
     HtmlPase()
     keyword = input('검색 키워드 :')
     if keyword == 'q'or keyword == 'ㅂ':
