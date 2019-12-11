@@ -3,6 +3,13 @@ import urllib.request as req
 import requests
 import time
 
+
+__url = "http://www.inven.co.kr/board/destinyguardians/5294" #파티찾기
+# __url = "http://www.inven.co.kr/board/destinyguardians/5051" #전체 게시판
+
+__bbsList = []
+__bbsNo = 0
+
 def telegram_bot_sendtext(bot_message):
     bot_token = '327497093:AAGJCRubUJv36_rwbD2Ul4D_DkXoA-ZORag'
     bot_chatID = '51404588'
@@ -12,22 +19,15 @@ def telegram_bot_sendtext(bot_message):
 
     return response.json()
 
+def HtmlPase(url):
 
-url = "http://www.inven.co.kr/board/destinyguardians/5294" #파티찾기
-#url = "http://www.inven.co.kr/board/destinyguardians/5051" #전체 게시판
+    res = req.urlopen(url)
+    soup = BeautifulSoup(res, 'html.parser')
 
-bbsList = []
-bbsNo = 0
-
-
-res = req.urlopen(url)
-soup = BeautifulSoup(res, 'html.parser')
-# keyword = input('검색 키워드 :')
-
-def HtmlPase():
     bbs = soup.select_one("div#powerbbsBody")
+    bbsNo = 0
     listItems = bbs.select("tr.ls")
-    print(len(listItems))
+
     for item in listItems:
         itemNo = str(item.select_one(".bbsNo").string).strip()
         itemDate = str(item.select_one(".date").string).strip()
@@ -42,14 +42,18 @@ def HtmlPase():
             bbsListDic['date'] = itemDate
             bbsListDic['subject'] = itemSub
             bbsListDic['a_href'] = itemHref
-            bbsList.append(bbsListDic)
-            global bbsNo
+            __bbsList.append(bbsListDic)
+            bbsNo
             if bbsNo < int(itemNo):
                 bbsNo = int(itemNo)
 
+    print(len(listItems))
+    return bbsNo
+
 def KeywordSearch(keyword):
+    print(keyword, len(__bbsList))
     findList = []
-    for item in bbsList:
+    for item in __bbsList:
         if item['subject'].find(keyword) > 0:
             findList.append(item)
         if len(findList) > 5 :
@@ -66,15 +70,22 @@ def KeywordSearch(keyword):
         print("검색결과가 없습니다.")
 
 
+
+
+keyword = input('검색 키워드 :')
+
 while True:
-    bbsList.clear()
-    HtmlPase()
-    keyword = input('검색 키워드 :')
-    if keyword == 'q'or keyword == 'ㅂ':
-        print('종료')
-        break;
-    KeywordSearch(keyword)
-    print("마지막 게시물 번호 :", bbsNo)
+    __bbsList.clear()
+    bbsNo = HtmlPase(__url)
+
+    if bbsNo > __bbsNo or __bbsNo == 0:
+        KeywordSearch(keyword)
+    else:
+        print("신규 게시글이 없습니다. keyword :" ,keyword)
+
+    __bbsNo = bbsNo
+
+    print("마지막 게시물 번호 :", __bbsNo)
     time.sleep(5)
 
 
