@@ -12,12 +12,12 @@ rc('font', family=font_name)
 plt.rcParams['axes.unicode_minus'] = False
 
 text = open('ab.txt','r',encoding='utf-8').read()
-print(type(text))
+# print(type(text))
 ## 영문 숫자 제거 (한글만 가져 오는 방식)
 text = re.compile('[가-힣]+').findall(text)
-print(type(text))
-text = ' '.join(text)# list 를 string 으로 사이에 공백
-print(type(text))
+# print(type(text))
+text = ' '.join(text)# list 를 string 으로 만들고 아이템 사이는 공백을 넣는다.
+# print(type(text))
 
 wordcloud = WordCloud(font_path= font_path).generate(text)
 
