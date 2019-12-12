@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from matplotlib import font_manager, rc, rcParams
 
+###
 # 한글 입력 가능하도록
+from matplotlib import font_manager, rc, rcParams
 font_name = font_manager.FontProperties(
     fname="c:/windows/Fonts/malgun.ttf").get_name()
 rc('font',family=font_name)
 rcParams['axes.unicode_minus'] = False # -표시 보이게
+###
 
 s1 = pd.Series([84900, 81800, 71756, 92000])
 s2 = pd.Series([80500, 82800, 71736, 90000])
