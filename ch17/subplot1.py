@@ -12,11 +12,11 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
-plt.title('점수 빈도')
+fig, ax_lst = plt.subplots(2,2,figsize=(8,5))
+#
+ax_lst[0][0].plot([1,2,3,4], 'ro-') # 'ro-' : red 포인트는 o 모양 실선
+ax_lst[0][1].plot(np.random.randn(4,10), np.random.randn(4,10), 'bo--') # 'ro--' red 포인트 o 긴점선
+ax_lst[1][0].plot(np.linspace(0.0, 5.0),np.cos(2*np.pi*np.linspace(0.0,5.0))) # 코사인 라인
+#                  x1,y1  x2, y2
+ax_lst[1][1].plot([3, 5], [3, 5], 'bo:') # 두점사이 직선 파란색 포인트o 점선으로
 plt.show()

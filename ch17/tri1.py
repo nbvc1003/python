@@ -12,11 +12,14 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
-plt.title('점수 빈도')
+import matplotlib.tri as mtri
+#             x1,x2,x3
+x = np.array([0,1,2])
+#             y1, y2, y3
+y = np.array([0,np.sqrt(3), 0])
+triangles = [[0,1,2]]
+tring = mtri.Triangulation(x,y, triangles)
+plt.triplot(tring, 'ko-') # 검은색 포인트 o 실선
+plt.xlim((-0.1,2.1)) # 시작부분 여분을 위해서 -0.1부터시작
+plt.ylim(-0.1, 1.8)
 plt.show()

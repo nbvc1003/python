@@ -12,11 +12,15 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
-plt.title('점수 빈도')
+import seaborn as sns
+
+iris = sns.load_dataset('iris')
+x = iris.petal_length.values
+
+# 단순 데이터들의 위치를 표시 한다.
+sns.rugplot(x)
+
+# 데이터의 밀도를 그래프로 표현한다.
+sns.kdeplot(x)
+plt.title('꽃 잎 길이에 대한 Kernal 밀도 그래프')
 plt.show()

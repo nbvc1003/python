@@ -12,11 +12,15 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
-plt.title('점수 빈도')
+import seaborn as sns
+
+iris = sns.load_dataset('iris')
+x = iris.petal_length.values
+
+# distplot : Histogram과 유사한 그래프 ..(빈도를 보여주기 위한 목적)
+# distplot을 그릴때 kde(밀도), rug(실제데이터) 를 함께 그린다.
+sns.distplot(x, kde=True, rug=True)
+
+
+plt.title('꽃잎 길이 Dist plot')
 plt.show()

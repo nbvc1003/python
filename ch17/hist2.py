@@ -12,11 +12,11 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# bar그래프 : 점수를 보여주는 목적
+# histgram 그래프 : 해당점수가 몇명인가를 보여주기 위함 즉 빈도수에 중점
 df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
+plt.hist([df['국어'],df['영어'],df['수학']],bins=10,
+         label=['국어','영어','수학'])
 plt.title('점수 빈도')
+plt.legend()
 plt.show()

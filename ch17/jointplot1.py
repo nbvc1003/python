@@ -11,12 +11,13 @@ rc('font',family=font_name)
 rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+import seaborn as sns
+iris = sns.load_dataset('iris')
 
-df = pd.read_csv('csv_exam1.csv', encoding='euc-kr')
-data = pd.concat([df['국어'], df['영어'],df['수학']])
-print(data)
-plt.hist(data, bins=3)
-# 하 :0 ~ 40 , 중: 41 ~ 80, 상: 80 ~ 100
-plt.xticks(range(0,100, 40),['하','중','상'])
-plt.title('점수 빈도')
+# x축과 y축의 컬럼을 지정 data = dataframe 형식의 데이터
+print(iris)
+
+# histogram과 scatter를 함께 표현
+sns.jointplot(x='sepal_length', y='sepal_width', data=iris, kind='scatter')
+plt.title("붓꽃의 꽃받침의 길이/폭")
 plt.show()
