@@ -11,14 +11,15 @@ rc('font',family=font_name)
 rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+import seaborn as sns
 
-#                     100행 3열 랜덤생성        2019,1,1 부터 100일
-df1 = pd.DataFrame(np.random.randn(100, 3), index=pd.date_range('1/1/2019', periods=100),
-                   columns=['A','B','C']).cumsum() # 값을 누적 시켜 넣는다.
+# 21건의 랜덤한 정규분포 데이터 ( 가운데 몰려있는 평균0, 표준편차1)
+x = np.random.normal(size=21)
 
-print(df1)
-
-# pandas 의 DataFrame 에서 내부적으로 matplotlib 를 import 해서 연결되어 있기때문에 plot 함수를 사용해서 그려준다.
-df1.plot()
+bins = np.linspace(-4,4,17) # -4 ~ 4 : 17개
+print(type(bins))
+# 히스토그램 rug 실데이터, kde 밀도그래프
+sns.distplot(x, rug=True, kde=True, bins=bins) # 분포를 보여주는 차트
+plt.title('데이터 분포')
 plt.show()
 

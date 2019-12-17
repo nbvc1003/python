@@ -11,14 +11,17 @@ rc('font',family=font_name)
 rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+import seaborn as sns
 
-#                     100행 3열 랜덤생성        2019,1,1 부터 100일
-df1 = pd.DataFrame(np.random.randn(100, 3), index=pd.date_range('1/1/2019', periods=100),
-                   columns=['A','B','C']).cumsum() # 값을 누적 시켜 넣는다.
+iris = sns.load_dataset('iris')
 
-print(df1)
+# species 컬럼을 기준으로 다시 만들고 value값은 mean()으로
+df2 = iris.groupby(iris.species).mean()
 
-# pandas 의 DataFrame 에서 내부적으로 matplotlib 를 import 해서 연결되어 있기때문에 plot 함수를 사용해서 그려준다.
-df1.plot()
+# 컬럼 전체의 통칭 ( 범례의 title)
+df2.columns.name = 'feature'
+
+df2.plot.bar(rot=0) # rot= 0 -> x축 라벨의 모양
+plt.title('feature별 평균')
+plt.ylabel('종')
 plt.show()
-
