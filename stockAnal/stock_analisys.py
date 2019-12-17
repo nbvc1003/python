@@ -1,8 +1,9 @@
 from pandas_datareader import data
 from datetime import date
 import pandas as pd
-import statsmodels.formula.api as sm
 import matplotlib.pyplot as plt
+from scipy import stats, polyval
+
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # 차트에 한글 가능하도록
@@ -14,10 +15,11 @@ rcParams['axes.unicode_minus'] = False # 부호표시 (-,+) 사용할때
 ###
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# 종목 코드 1
-# 종목 코드 2
-# 날짜1 ~ 날짜2
-# 분석 시작
+
+## 입력 받을 데이터
+# 종목 코드 2개
+# 시작 날짜와 끝 날짜 .
+# 분석 시작 버튼 이벤트.
 #
 
 d = date.today()
@@ -28,17 +30,36 @@ end = date(d.year,d.month,d.day)
 # 애플 : AAPL
 
 # 종목코드
-itemCode1 = ''
-itemCode2 = ''
+targetStockCode = 'targetStockCode'
+compStockCode = 'compStockCode'
 # 종목 데이터 받아오기
-stock1_df = data.DataReader("AAPL","yahoo",start, end) # start ~ end 까지
-stock2_df = data.DataReader("AMD","yahoo",start, end) # start ~ end 까지
+targetStock_df = data.DataReader("AAPL", "yahoo", start, end) # start ~ end 까지
+compStock_df = data.DataReader("AMD", "yahoo", start, end) # start ~ end 까지
+tsd = targetStock_df['Close']
+csd = compStock_df['Close']
+slope, intersecept, r_value, p_value, stderr = stats.linregress(tsd, csd)
 
-result = sm.ols(formula="score ~ iq + academy +game+ tv", data=df).fit()
+print(tsd)
+print(csd)
 
+print('기울기 :', slope)
+print('절편 :', intersecept)
+print('상관계수 :', r_value)
+print('유의수준 :', p_value)
 
-stock1_df.plot()
-
-
+#
+ry = polyval([slope, intersecept],tsd)
+plt.plot(tsd, csd, 'k.')
+plt.plot(tsd, ry, 'r')
+plt.title('{}/{}'.format(targetStockCode, compStockCode))
+plt.xlabel(targetStockCode)
+plt.ylabel(compStockCode)
+plt.legend(['price','polyval'])
 plt.show()
+
+
+# stock1_df.plot()
+
+
+# plt.show()
 
