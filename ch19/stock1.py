@@ -38,6 +38,7 @@ for i in range(1,4):# i = 1,2,3
         if srlists[j].span != None: # span 테그가 있는 데이터 제외하고
             datelist.append(srlists[j].td.text)
             samsunglist.append(srlists[j].find_all("td", class_="num")[0].text)
+            # td 테그 class 값이 num 인 값들중 0번째 text 값
 
 
 df = pd.Series(samsunglist)
