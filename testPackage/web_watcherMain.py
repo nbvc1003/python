@@ -13,7 +13,7 @@ class Example(QMainWindow, Ui_MainWindow):
         # connect 함수를 사용하여 주기적으로 실행할 check 함수에 연결해줌
         self.timer.timeout.connect(self.check)
         self.timer.setInterval(5 * 60 * 1000)
-        self.rb_5m.setChecked(True)
+        self.rb_5m.setChecked(True) # UI초기 설정
         self.show()
 
     def setCycle(self):

@@ -23,6 +23,9 @@
       <height>81</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>감시시작</string>
+    </property>
     <property name="text">
      <string>Start</string>
     </property>
@@ -117,8 +120,11 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="toolTip">
+     <string>툴팁테스트</string>
+    </property>
     <property name="text">
-     <string/>
+     <string>결과창</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -158,6 +164,9 @@
       <width>151</width>
       <height>81</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>감시중지</string>
     </property>
     <property name="text">
      <string>Stop</string>
