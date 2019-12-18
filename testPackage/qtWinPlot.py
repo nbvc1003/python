@@ -1,10 +1,9 @@
-import sys
+import random, sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QSizePolicy
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
-import matplotlib.pyplot as plt
-import random
 from testPackage.qtWinPltUI import Ui_MainWindow
+
 
 class Main(QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -14,8 +13,9 @@ class Main(QMainWindow, Ui_MainWindow):
 
     def iniUI(self):
         m = PlotCanvas(self, width=5, height=4)
-        m.move(0,0)
+        m.move(0, 0)
         self.show()
+
 
 class PlotCanvas(FigureCanvas):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
@@ -26,11 +26,10 @@ class PlotCanvas(FigureCanvas):
         self.setParent(parent)
 
         FigureCanvas.setSizePolicy(self,
-                QSizePolicy.Expanding,
-                QSizePolicy.Expanding)
+                                   QSizePolicy.Expanding,
+                                   QSizePolicy.Expanding)
         FigureCanvas.updateGeometry(self)
         self.plot()
-
 
     def plot(self):
         data = [random.random() for i in range(25)]
@@ -44,4 +43,3 @@ app = QApplication([])
 ex = Main()
 
 sys.exit(app.exec_())
-
