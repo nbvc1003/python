@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['web_crawling1.py'],
+a = Analysis(['web_watcher.py'],
              pathex=['D:\\Develop\\python\\testPackage'],
              binaries=[],
              datas=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='web_crawling1',
+          name='web_watcher',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -34,4 +34,4 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='web_crawling1')
+               name='web_watcher')
