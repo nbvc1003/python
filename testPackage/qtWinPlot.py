@@ -13,6 +13,7 @@ class Main(QMainWindow, Ui_MainWindow):
 
     def iniUI(self):
         m = PlotCanvas(self, width=5, height=4)
+        #
         m.move(0, 0)
         self.show()
 
