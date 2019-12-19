@@ -9,14 +9,15 @@ print(items)
 items['성적'] = items['성적']/75 - 1
 
 # 검정 통계량
+ts = items['성적'].mean() / items['성적'].std(ddof=1) * np.sqrt(len(items['성적']))
 # ddof=1 자유도
-t = items['성적'].mean()/items['성적'].std(ddof=1)*np.sqrt(len(items['성적']))
 
-print('검정 통계 :', t)
 
-# sp.stats.t  student 랜덤변수
+print('검정 통계 :', ts)
+
+# sp.stats.t  T검정 테스트 함수
 # sp.stats.t(df= len(items['성적'])-1).cdf(t) -> 귀무가설이 맞지 않을 확률
-result = 1- sp.stats.t(df= len(items['성적'])-1).cdf(t)
+result = 1- sp.stats.t(df= len(items['성적'])-1).cdf(ts)
 print('유의확율 :', result)
 
 if result >= 0.05:

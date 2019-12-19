@@ -6,8 +6,7 @@ import scipy as sp
 # cdf 누적 분포 함수.
 # https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom.html
 
-# 승률 0.3 (30%) 의 확률에 100번시도시  60번 이상 이길 유의 확률(디폴트 유의수준 5%)
-# 아래 값이 0.05 보다 작은지 여부를 확인한다.
+# 승률 0.3 (30%) 의 확률에 100번시도시  60번 이상 이길 유의 확률(디폴트 유의수준 5% -> T검정)
 print(1 - sp.stats.binom(100, 0.3).cdf(60 -1))
 # 5.12994979828818e-10
 # 60번이상 이길 확률은 극소
@@ -21,3 +20,4 @@ print(1 - sp.stats.binom(100, 0.3).cdf(30 -1))
 # 0.5376602639846385
 # 거의 50% 이상
 
+# 이후 T 검정을 실행

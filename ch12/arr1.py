@@ -9,3 +9,6 @@ import numpy as np
 
 arr1 = np.array([[10,20, 30, 40],[50,60,70,80]])
 print(arr1, arr1.dtype, arr1.shape, len(arr1), len(arr1[0]))
+
+arr = np.arange(0,20).reshape(5,4)
+print(arr)

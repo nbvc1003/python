@@ -19,6 +19,8 @@ stock = {'다음' : [84900, 86100, 90800, 90600],
          }
 df = pd.DataFrame(stock)
 
+print(stats.linregress(df['넥슨'], df['네이버']).rvalue)
+
 slope, intersect, r_value, p_value, stderr = stats.linregress(df['네이버'], df['넥슨'])
 
 # 네이버 값이 변할때 slop, intersect 를 가진 회귀값 -> 넥슨
